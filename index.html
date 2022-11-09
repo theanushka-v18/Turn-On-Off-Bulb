@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turn On/Off Bulb</title>
+    <style>
+      body {
+        background: #111111;
+      }
+
+      #bulb {
+        width: 222px;
+        height: 227px;
+      }
+
+      #switch {
+        padding: 6px  12px;
+        background: #ffffff;
+        outline: none;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+      }
+      #switch:hover {
+        cursor: pointer;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        background: #111111;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="bulb" src="/bulb-off.png" alt="bulb off" />
+    <button id="switch">Turn On</button>
+    <script src="/script.js"></script>
+  </body>
+</html>
